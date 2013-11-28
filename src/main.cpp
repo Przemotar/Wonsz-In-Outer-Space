@@ -8,14 +8,14 @@
 
 #include <glm/glm.hpp>
 
-#include <glm/gtx/transform.hpp>
-#include <glm/gtc/matrix_transform.hpp>
+#include "common/transform.hpp"
+#include "common/matrix_transform.hpp"
 using namespace glm;
 
-#include <common/shader.hpp>
-#include <common/texture.hpp>
-#include <common/controls.hpp>
-#include <common/objloader.hpp>
+#include "common/shader.hpp"
+#include "common/texture.hpp"
+#include "common/controls.hpp"
+#include "common/objloader.hpp"
 
 int main( void )
 {
