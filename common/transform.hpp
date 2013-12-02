@@ -43,7 +43,7 @@
 
 // Dependency:
 #include <glm/glm.hpp>
-#include "common/matrix_transform.hpp"
+#include "matrix_transform.hpp"
 
 #if(defined(GLM_MESSAGES) && !defined(glm_ext))
 #	pragma message("GLM: GLM_GTX_transform extension included")
